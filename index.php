@@ -8,7 +8,7 @@
     <?php
 $uri=$_SERVER['REQUEST_URI'];
 $newuri=preg_replace('|\/(.*)|', '', $url);
-header( 'Location: https://gabed.net/iloader/twitch-clip-downloader'.$newuri);
+header( 'Location: https://gabed.net/iloader'.$newuri);
 ?>
 
 </body>
